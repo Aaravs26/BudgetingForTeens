@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202697018772",
+    "firebase_url": "https://budgeting-for-teens-bf579-default-rtdb.firebaseio.com",
+    "project_id": "budgeting-for-teens-bf579",
+    "storage_bucket": "budgeting-for-teens-bf579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202697018772:android:7ccc76aac7f4e6faa55381",
+        "android_client_info": {
+          "package_name": "com.example.budgetingforteens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202697018772-no4a2bmbktrmqqcg6q3lvm8i009703fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD2AQ9at_lCiYQPoMiuqpCgi3Dt6z9wSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202697018772-no4a2bmbktrmqqcg6q3lvm8i009703fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

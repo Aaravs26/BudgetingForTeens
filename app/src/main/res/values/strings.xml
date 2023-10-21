@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Budgeting for Teens</string>
+    <string name="budgeting_for_teens">Budgeting for Teens</string>
+    <string name="user_name">AaravS</string>
+    <string name="user_password">1234</string>
+    <string name="login_preference">com.example.budgetingforteens.sharedpreference_login_preference</string>
+    <string name="login_status_preference">com.example.budgetingforteens.sharedpreference_login_status_preference</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:text="Budgeting for Teens"/>
+
+</RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Current Budget: ₹"
+        android:textSize="23sp"
+        android:background="#5b50a3"
+        android:textColor="@color/white"
+        android:id="@+id/budget"
+        android:onClick="budget"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="121dp"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:text="Leisure"
+        style="@style/Button"
+        android:id="@+id/leisure"
+        android:onClick="leisure"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        style="@style/Button"
+        android:text="Transportation"
+        android:id="@+id/transport"
+        android:onClick="transport"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:text="Food"
+        style="@style/Button"
+        android:id="@+id/food"
+        android:onClick="food"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        style="@style/Button"
+        android:text="Clothing"
+        android:id="@+id/clothing"
+        android:onClick="clothing"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        style="@style/Button"
+        android:text="Books"
+        android:id="@+id/books"
+        android:onClick="books"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        style="@style/Button"
+        android:text="Gifts"
+        android:id="@+id/gifts"
+        android:onClick="gifts"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        style="@style/Button"
+        android:text="Miscellaneous"
+        android:id="@+id/misc"
+        android:onClick="misc"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:text="Sign Out"
+        android:textSize="20dp"
+        android:id="@+id/signout"/>
+
+</LinearLayout>
